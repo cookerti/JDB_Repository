@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="toStartStaticFragment"
+        android:text="点击打开静态添加的Fragment"
+        ></Button>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="toStartDynamicFragment"
+        android:text="点击打开动态添加的Fragment"
+        ></Button>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="toStartModifyFragment"
+        android:text="打开Fragment的增删替查"
+        ></Button>
+        <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="toStartDatapassFragment"
+        android:text="打开Fragment间数据传输测试页"
+        ></Button>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="toStartViewPagerAndFragment"
+        android:text="打开ViewPager与Fragment测试页"
+        ></Button>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="toStartLastPager"
+        android:text="打开利用Fragment实现侧滑菜单页"
+        ></Button>
+
+</LinearLayout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".modify.ModifyActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <androidx.fragment.app.FragmentContainerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/fcv_modify"
+            android:tag="myFragment"
+            android:padding="10dp"
+            ></androidx.fragment.app.FragmentContainerView>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="addFragment"
+            android:text="添加Fragment"
+            android:padding="10dp"
+            ></Button>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="addFragmentAndBackstack"
+            android:text="添加Fragment同时加入BackStack"
+            android:padding="10dp"
+            ></Button>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="findFragmentById"
+            android:text="findFragmentById"
+            android:padding="10dp"
+            ></Button>
+        <Button
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="findFragmentByTag"
+            android:text="findFragmentByTag"
+            ></Button>
+        <Button
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="removeFragment"
+            android:text="removeFragment"
+            ></Button>
+        <Button
+
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="replaceFragment"
+            android:text="replaceFragment"
+            ></Button>
+        <Button
+
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="passDataByinterface"
+            android:text="passDataByinterface"
+            ></Button>
+    </LinearLayout>
+
+
+</ScrollView>
